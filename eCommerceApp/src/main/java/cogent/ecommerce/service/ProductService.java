@@ -35,6 +35,6 @@ public class ProductService{
 	}
 	
 	public Page<Product> getProByCateId(long id){
-		return pr.findByCategoryId(id, null); //new Pageable.of(2,20);
+		return pr.findByCategoryId(id, null); //new Pageable.of(2,20); for branch
 	}
 }
